@@ -1,0 +1,4535 @@
+-- * Network Simulator v1.0 * --
+Enter number of messages to simulate (> 0): [10] Enter packet loss probability (0.0 for no loss): [0.0] Enter packet corruption probability (0.0 for no corruption): [0.0] Enter average time between messages from sender's layer 5 (> 0.0): [1000] Enter window size (> 0): [8] Enter retransmission timeout (>0.0) [15.0] Enter trace level (>= 0): [0] Enter random seed: [0] 
+EVENT time: 1.7842341380046998  type: 1  entity: 0
+Sent Packet from A to B
+
+EVENT time: 5.243324076052126  type: 1  entity: 0
+Sent Packet from A to B
+
+EVENT time: 7.048432874538408  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 8.168462172307505  type: 1  entity: 0
+Sent Packet from A to B
+
+EVENT time: 9.359782708212531  type: 1  entity: 0
+Sent Packet from A to B
+
+EVENT time: 11.784234138004699  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 11.896237067781609  type: 1  entity: 0
+Sent Packet from A to B
+
+EVENT time: 12.904202398754844  type: 1  entity: 0
+Sent Packet from A to B
+toLayer3: packet being corrupted
+
+EVENT time: 14.032288583025604  type: 1  entity: 0
+Sent Packet from A to B
+toLayer3: packet being lost
+
+EVENT time: 14.699209570604573  type: 2  entity: 0
+
+EVENT time: 16.2019104586932  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 17.293496505630664  type: 1  entity: 0
+Sent Packet from A to B
+
+EVENT time: 17.354625080111088  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 19.180639057588426  type: 1  entity: 0
+Sent Packet from A to B
+toLayer3: packet being corrupted
+
+EVENT time: 21.18717001861629  type: 1  entity: 0
+Sent Packet from A to B
+
+EVENT time: 21.19687490462966  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 22.909482100894195  type: 2  entity: 0
+
+EVENT time: 24.834498123111665  type: 1  entity: 0
+Sent Packet from A to B
+
+EVENT time: 26.858729819635606  type: 1  entity: 0
+Sent Packet from A to B
+
+EVENT time: 27.257881405072176  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 29.529221472823263  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 30.450666829432052  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 31.874385814996792  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 32.18738364818262  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 33.95306253242591  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 34.622455519272435  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 34.71980956450086  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 36.191290017395545  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 36.3277687917722  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 38.17752616962188  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 38.69771416364024  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 39.890743736075926  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 40.86770226142155  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 43.684133426923424  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 44.51197851496933  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 46.20404675435652  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 46.56257820368053  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 46.82378612628559  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 48.17752616962188  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 49.7842341380047  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 50.80501724295785  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 52.79909665211951  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 53.63838618121891  type: 2  entity: 0
+
+EVENT time: 56.71279030732139  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 57.840723899044775  type: 2  entity: 0
+
+EVENT time: 59.16684469130528  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 59.69481490524002  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 63.1398663289285  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 63.23703726310008  type: 2  entity: 0
+
+EVENT time: 64.6305124057741  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 65.62987151707512  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 66.6105533005768  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 67.21408734397411  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 67.51753288369396  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 69.57194738608966  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 70.7350383007294  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 71.33396404919584  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 74.86251411481064  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 75.42283394878994  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 75.62987151707512  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+
+EVENT time: 76.91381572923979  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 77.043855098117  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 77.40443128757592  type: 2  entity: 0
+
+EVENT time: 78.75786614581745  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 80.57142857142857  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 81.54210028382215  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 82.8521378215888  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 86.31720938749352  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 86.51780755027924  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 86.53852961821345  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 87.40443128757592  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 88.29444257942444  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 88.5752128666036  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 89.3139439069796  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 90.75911740470595  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 94.14423047578356  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 95.13266396069216  type: 2  entity: 0
+
+EVENT time: 97.17291787469102  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 97.56767479476302  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 99.4467909787286  type: 2  entity: 0
+
+EVENT time: 100.36109500412  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 101.58153019806515  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 102.41257972960601  type: 2  entity: 0
+
+EVENT time: 102.60994293038729  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 103.53901791436509  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 105.29212317270425  type: 2  entity: 0
+
+EVENT time: 106.45210119937744  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 107.42600787377546  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 110.90020447401349  type: 2  entity: 0
+
+EVENT time: 111.02142399365218  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 111.05063020722069  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 111.46018860438858  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 115.35300759910888  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 117.59440900906401  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 117.85689870906705  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 120.86431470686975  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 120.90020447401349  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+
+EVENT time: 121.588061159093  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 123.0021668141728  type: 2  entity: 0
+
+EVENT time: 124.37208166753138  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 125.0127262184515  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 127.20151371807002  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 128.55366679891355  type: 2  entity: 0
+
+EVENT time: 128.7416913357952  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 130.56184575945315  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 130.62971892452774  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 131.8884243293558  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 133.33524582659385  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 134.37794122135077  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 134.3870357371746  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 135.62269966734826  type: 2  entity: 0
+
+EVENT time: 135.94653157139808  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 136.88918729209269  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 136.91521958067568  type: 2  entity: 0
+
+EVENT time: 139.75667592394788  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 140.79384746848967  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 142.7439802240059  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 144.51219214453567  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 145.39176610614342  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 145.42268135624258  type: 2  entity: 0
+
+EVENT time: 146.71773430585654  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 146.9312417981506  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 149.99945066682946  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 150.03045747245707  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 150.20343638416702  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 152.3728141117588  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 152.39954832605977  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 153.68352305673392  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 154.74892422254098  type: 2  entity: 0
+
+EVENT time: 156.03747672963655  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 157.56938383129372  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 160.45924253059485  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 162.45191808832058  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 162.50627155369733  type: 2  entity: 0
+
+EVENT time: 162.57930234687342  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 164.1054719687491  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 164.15039521469777  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 165.74968718527793  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 167.52891628772858  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 169.97274697103794  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 171.20685445722833  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 171.27756584368427  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 172.732444227424  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 173.90850550859102  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 174.50068666646328  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 174.74968718527788  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 176.16370128482927  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 177.1786248359631  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 177.66273995178076  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 178.53425702688688  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 180.25452436902984  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 180.6341746269113  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 181.87856685079504  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 182.20374156926178  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 183.38633381145672  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 184.53810235908082  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 184.74968718527788  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+
+EVENT time: 186.2481154820399  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 186.55488753929265  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 186.61262855922124  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 187.78441724906162  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 188.32078005310223  type: 2  entity: 0
+
+EVENT time: 188.5948667867062  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 190.52424695577875  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 191.97289956358537  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 193.35575426496175  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 193.9663686025575  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 194.65340128788114  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 195.44846949674982  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 195.9542527542955  type: 2  entity: 0
+
+EVENT time: 197.16580706198314  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 198.47212134159372  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 200.1763664662618  type: 2  entity: 0
+
+EVENT time: 200.74770348216197  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 202.82833338419755  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 204.39466536454364  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 206.6519363994263  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 209.0398266548662  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 209.12356944486834  type: 2  entity: 0
+
+EVENT time: 209.16483046967988  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 210.13141270180367  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 212.93066194647056  type: 2  entity: 0
+
+EVENT time: 213.71428571428575  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 214.15131076998205  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 215.6629840998566  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 216.22425000762968  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 217.94293038727992  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 218.62239448225353  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 220.6762291329692  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 220.95803704947053  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 224.20264290292064  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 226.40681173131506  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 227.0308542130803  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 227.94293038727992  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+
+EVENT time: 228.06176946317944  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 230.46336252937414  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 231.4512771996216  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 232.47138889736632  type: 2  entity: 0
+
+EVENT time: 233.88763084810938  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 237.7744682149724  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 237.98641926328327  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 238.50752281258585  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 242.35663930173652  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 242.47138889736632  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 243.19788201544245  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 244.70766319772943  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 245.42075869014565  type: 2  entity: 0
+
+EVENT time: 245.64537491988898  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 247.2009033478805  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 248.33472701193276  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 248.63881344035158  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 249.68999298074283  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 250.77773369548638  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 253.5759758293405  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 253.72743919186993  type: 2  entity: 0
+
+EVENT time: 256.28931546983245  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 257.0621662038026  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 258.8064516129033  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 259.5640430921354  type: 2  entity: 0
+
+EVENT time: 260.8277840510269  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 262.2378612628559  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 263.79076509903257  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 264.63881344035156  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 266.36521500289933  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 266.6911221655934  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 269.25998718222604  type: 2  entity: 0
+
+EVENT time: 269.66472365489665  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 272.5494552446058  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 273.3533127842035  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 274.54087954344317  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 275.05795464949483  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 278.0830713827936  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 279.25998718222604  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 279.5702383495591  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 281.7919553209022  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 282.02935880611585  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 282.874904629658  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 283.0682088686788  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 283.4606158635213  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 284.3425397503586  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 288.1475875118259  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 290.3266701254311  type: 2  entity: 0
+Sent Packet from A to B
+toLayer3: packet being corrupted
+
+EVENT time: 291.5617236854153  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 291.7879573961608  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 295.01767021698663  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 296.10437330240796  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 296.3504745628224  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 297.92266609698794  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 298.01727347636347  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 298.22504348887605  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 300.09121982482384  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 300.79628894924775  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 301.4188665425581  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 301.4995880001222  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 302.31501205481123  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 303.769890438551  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 306.2465285195471  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 306.38935514389476  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 306.68742942594696  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 308.01727347636347  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+
+EVENT time: 309.0598467970825  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 309.62981048005616  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 309.98941007721197  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 313.0397045808283  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 314.15399639881593  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 314.5847956785791  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 317.9143040253915  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 318.01727347636347  type: 0  entity: 0
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 318.2907803582874  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 318.38080996124154  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 318.99948118533894  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 320.155156102176  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 320.68044068727687  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 322.0365611743523  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 322.65633106479083  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 322.76436658833586  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 322.77272865993234  type: 2  entity: 0
+
+EVENT time: 324.00991851557984  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 326.0863673818171  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 327.84386730552086  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 328.3475753044222  type: 2  entity: 0
+
+EVENT time: 330.31672109134195  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 330.35767693105885  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 330.92660298471026  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 331.8433790093692  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 332.5639210180976  type: 2  entity: 0
+
+EVENT time: 332.7919858394118  type: 2  entity: 1
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 334.3882564775536  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 336.756736960967  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 336.9402142399365  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 339.00057985168  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 340.42371898556485  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 340.567033906064  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 342.2331614123967  type: 2  entity: 0
+
+EVENT time: 342.47773674733725  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 342.7169408246103  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 344.62025818659015  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 345.58146916104613  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 347.7221594897305  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 350.00482192449715  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 350.4269539475693  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 352.2331614123967  type: 0  entity: 0
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+
+EVENT time: 352.6191595202492  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 353.72307504501475  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 353.79650257881417  type: 2  entity: 0
+
+EVENT time: 355.0668660542619  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 355.13476973784617  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 359.0092471083712  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 359.9431134983367  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 360.7153538621173  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 361.701345866268  type: 2  entity: 0
+
+EVENT time: 363.3726615192113  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 364.6541032135992  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 367.1421857356486  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 368.3043610950043  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 369.1348002563554  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 369.2140263069551  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 369.22522659993297  type: 2  entity: 0
+
+EVENT time: 371.7066560869166  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 372.6962187566761  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 373.80083620715953  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 376.02600177007344  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 377.28617206335633  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 378.80416272469245  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 378.87749870296346  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 379.038666951506  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 379.22522659993297  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+
+EVENT time: 380.00500503555395  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 380.5339518417919  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 380.9839472640158  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 384.5334635456403  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 384.9261757255774  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 386.17505417035443  type: 2  entity: 0
+
+EVENT time: 387.2354808191169  type: 2  entity: 0
+
+EVENT time: 387.50120548112415  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 389.037110507523  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 390.99325540940566  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 392.07010101626645  type: 2  entity: 0
+
+EVENT time: 392.2762535477766  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 392.71205786309383  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 394.02636799218743  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 394.498245185705  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 396.3768425550095  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 397.0349131748406  type: 2  entity: 0
+Sent Packet from A to B
+toLayer3: packet being lost
+
+EVENT time: 397.48765526291714  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 399.98937955870224  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 401.16721091341907  type: 2  entity: 0
+Sent Packet from A to B
+toLayer3: packet being corrupted
+
+EVENT time: 401.28348643452244  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 401.6213873714407  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 404.6969206823938  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 406.85839411603155  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 408.35511337626264  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 410.9916989654226  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 411.20590838343446  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 412.4145634327221  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 412.4524063844721  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 415.7935728019043  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 416.925565355388  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 418.3609424115727  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 418.6782738731042  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 419.1249732963042  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 420.2291329691458  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 421.80413220618306  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 422.0738242744225  type: 2  entity: 0
+
+EVENT time: 425.1391949217202  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 425.6667989135411  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 426.8417004913481  type: 2  entity: 0
+
+EVENT time: 427.8104190191351  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 430.4901882992037  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 430.5868709372234  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 431.10287789544356  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 431.6014282662437  type: 2  entity: 0
+
+EVENT time: 432.05270546586524  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 433.8103579821161  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 437.6240730002746  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 438.495803704947  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 438.7419049653614  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 439.0750450148017  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 439.5403302102727  type: 2  entity: 0
+
+EVENT time: 440.7790154728845  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 441.7963805047763  type: 2  entity: 0
+
+EVENT time: 442.4171880245368  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 445.69243446150085  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 448.0532242805261  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 450.3936582537311  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 450.92660298471014  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 451.7963805047763  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+
+EVENT time: 451.90646076845627  type: 2  entity: 1
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 453.5609607226782  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 454.6228522598958  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 455.56663716544074  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 456.33808404797526  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 458.28473769341093  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 458.81734672078636  type: 2  entity: 0
+
+EVENT time: 459.5540635395366  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 461.5363017670216  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 464.6485793633838  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 466.25074007385496  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 468.19769890438573  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 468.6113467818231  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 468.81734672078636  type: 0  entity: 0
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 470.14145329142144  type: 2  entity: 0
+
+EVENT time: 471.34910122989584  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 472.40321054719703  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 474.00018311105674  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 475.06561479537356  type: 2  entity: 0
+
+EVENT time: 475.5381939146094  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 477.16751609851366  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 477.2201910458695  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 478.6873073519091  type: 2  entity: 0
+
+EVENT time: 480.13989684743785  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 480.6250190740683  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 482.5041657765437  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 483.4485915707875  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 484.3830988494524  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 485.3866389965516  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 486.9848323007903  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 487.4300363170261  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 488.6873073519091  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 489.2097537156287  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 491.20383312479004  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 491.71791741691356  type: 2  entity: 0
+
+EVENT time: 491.93932920316155  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 495.01168858912916  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 497.7569505905334  type: 2  entity: 0
+
+EVENT time: 497.89849543748267  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 498.50138859218134  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 501.5262916959134  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 501.58006530961046  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 502.4656514175846  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 502.5191198461865  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 504.0377208777125  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 505.69420453505074  type: 2  entity: 0
+
+EVENT time: 506.512161626026  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 507.48142948698364  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 507.77062288277864  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 507.80251472518097  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 508.8839381084626  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 509.5718558305614  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 510.1206701864679  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 511.92968535416713  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 513.989562669759  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 514.1601306192208  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 514.8075807977536  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 516.71169164098  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 517.7706228827786  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 518.067506942961  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 518.7461775566879  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 518.8666646320992  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 520.5001678518022  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 520.8465529343549  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 522.0618610187079  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 522.3670155949582  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 525.1441999572739  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 528.997955259865  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 529.0051576281013  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 529.3633533738215  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 529.6302377391888  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 530.2471388897364  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 533.9186376537368  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 535.0552079836424  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 536.582171086764  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 537.3981139561142  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 537.5510422070989  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 538.8323313089389  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 538.9053621021147  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 542.676229132969  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 544.7508774071473  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 546.0432752464368  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 546.2024292733546  type: 2  entity: 0
+
+EVENT time: 546.5731986449782  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 547.3782769249548  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 547.7697683645129  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 549.3312173833427  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 551.4135868404187  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 552.2524491103852  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 552.5816827906123  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 552.6966765343178  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 552.8326670125429  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 554.2164983062227  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 555.2828455458239  type: 2  entity: 0
+
+EVENT time: 556.4026001770071  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 556.4310739463484  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 556.5117343668933  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 558.0515457625049  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 558.6740318002867  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 561.0929288613543  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 561.6558122501295  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 561.8789635914181  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 562.0681478316602  type: 2  entity: 0
+
+EVENT time: 565.252235480819  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 566.726981414228  type: 2  entity: 0
+
+EVENT time: 567.2244636371959  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 569.1380962553787  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 570.0941190832239  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 572.6233100375376  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 572.6830042420727  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 573.463942381054  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 574.1946470534377  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 574.2604754783779  type: 2  entity: 0
+
+EVENT time: 574.4477065340127  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 577.3053376873072  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 577.398205511643  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 579.6455275124363  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 580.9187292092653  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 582.231452375866  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 584.3780632953885  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 585.4552140873442  type: 2  entity: 0
+
+EVENT time: 587.5762810144352  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 587.6002075258643  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 588.2655415509506  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 588.3827021088289  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 589.353923154393  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 590.0681783501692  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 591.9205298013243  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 592.3459273049104  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 593.7660145878477  type: 2  entity: 0
+
+EVENT time: 594.5952940458386  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 598.4823755607774  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 599.0925016022218  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 600.0472426526686  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 602.327829828791  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 602.7329935605947  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 603.6210821863458  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 603.7660145878477  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 605.0669270912806  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 606.5529343546858  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 606.622425000763  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 607.2057863093963  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 608.7696768089843  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 609.6600238044375  type: 2  entity: 0
+
+EVENT time: 610.2327341532636  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 610.9887386700029  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 612.8303781243325  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 614.0702536088133  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 614.3364360484635  type: 2  entity: 0
+
+EVENT time: 616.9867244483776  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 616.9981688894316  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 618.6625873592334  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 619.9556871242405  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 620.9636524552137  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 622.1691335795156  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 623.2472609637746  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 623.4651936399422  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 624.3364360484635  type: 0  entity: 0
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 624.511886959441  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 627.1476790673539  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 627.1999267555773  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 628.5167394024477  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 630.3062227240817  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 631.0297555467387  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 631.5090182195497  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 633.2056031983393  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 634.3590502639852  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 635.5347758415475  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 637.4922330393384  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 637.6101565599532  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 638.5167394024477  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 641.1798455763417  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 641.4800561540575  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 641.9287697988826  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 643.5638294625686  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 644.3129062776575  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 645.2096316415901  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 645.4503006073184  type: 2  entity: 0
+
+EVENT time: 645.6710715048678  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 646.757164220099  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 649.2113406781208  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 649.9275490585035  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 650.3544114505447  type: 2  entity: 0
+
+EVENT time: 651.3005767998292  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 653.7958311716051  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 655.0227973265786  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 655.5464949491861  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 658.4180425428017  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 659.3023468733782  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 659.9031952879416  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 660.2684408093509  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 660.3544114505447  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 660.7500839259011  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 661.0617999816883  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 661.8455153050319  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 662.0512405774102  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 664.6093935972161  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 664.7612537003687  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 666.2760399182105  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 668.1182897427284  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 669.7852412488174  type: 2  entity: 0
+
+EVENT time: 671.1799066133605  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 672.4694357127598  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 673.4790490432442  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 673.4802697836238  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 675.8066347239596  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 675.8632770775471  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 676.1807306131169  type: 2  entity: 0
+
+EVENT time: 678.3533433027127  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 679.3570360423593  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 680.875545518357  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 681.2359996337774  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 681.2786034730059  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 682.7079683828237  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 683.0350047303684  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 683.7573168126463  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 683.7883846552935  type: 2  entity: 0
+
+EVENT time: 686.1644642475662  type: 2  entity: 1
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 686.1841486861777  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 686.8722800378424  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 686.8859523300877  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 689.6093325601978  type: 2  entity: 0
+
+EVENT time: 690.1936704611342  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 691.2757347331151  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 692.6608172856838  type: 2  entity: 0
+
+EVENT time: 693.4864650410475  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 694.2571489608442  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 696.0938138981293  type: 2  entity: 0
+
+EVENT time: 696.5863216040524  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 697.245490890225  type: 2  entity: 1
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 697.5654164250618  type: 2  entity: 0
+
+EVENT time: 700.0974150822469  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 701.2267220068967  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 703.5768913846243  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 705.6046632282475  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 705.7998596148565  type: 2  entity: 0
+
+EVENT time: 705.9298379467148  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 707.029389324625  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 709.3845637379067  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 710.3013397625656  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 711.1827143162328  type: 2  entity: 0
+
+EVENT time: 713.1757560960724  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 714.2404248176515  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 714.255623035371  type: 2  entity: 0
+
+EVENT time: 716.6617633594772  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 719.0960417493206  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 719.447737052522  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 719.492294076357  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 720.2501602221747  type: 2  entity: 0
+
+EVENT time: 720.3586535233616  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 721.5023041474655  type: 2  entity: 0
+
+EVENT time: 721.8191778313549  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 723.1895504623551  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 724.6142765587325  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 724.8338572344128  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 727.3279213843196  type: 2  entity: 0
+
+EVENT time: 728.5374919888909  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 729.3913998840293  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 730.3136692403945  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 731.6469618823813  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 734.4625995666371  type: 2  entity: 0
+
+EVENT time: 734.6663411358986  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 735.3622547074802  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 737.1039155247655  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 737.4447462385934  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 737.9963988158815  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 738.2147587511826  type: 2  entity: 0
+
+EVENT time: 739.9771721549116  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 742.5164342173525  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 742.6194341868345  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 745.571214941862  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 746.5846125675222  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 746.6154972991121  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 747.4570146794027  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 748.2147587511826  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+
+EVENT time: 748.633930478835  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 749.6979277932062  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 750.2477492599257  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 750.3662831507305  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 752.8030030213324  type: 2  entity: 0
+
+EVENT time: 753.5102999969478  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 755.2916043580434  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 756.9067659535505  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 757.6936552018796  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 759.6973479415265  type: 2  entity: 0
+
+EVENT time: 760.923856318857  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 761.0705282753993  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 761.6169927060758  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 764.491592150639  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 765.3438825647754  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 766.1026032288579  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 767.9407025360883  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 769.6973479415265  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 769.7775200659196  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 771.404889065218  type: 2  entity: 0
+
+EVENT time: 771.6314584795674  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 772.7223120822781  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 773.739768669698  type: 2  entity: 0
+
+EVENT time: 774.4456312753681  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 775.9483626819662  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 777.8234504226813  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 779.4894863734851  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 780.0170903653061  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 781.039460432752  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 782.3578295236063  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 783.0182805871756  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 783.739768669698  type: 0  entity: 0
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 784.4087038789028  type: 2  entity: 0
+
+EVENT time: 784.4089480269778  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 784.6861171300395  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 786.636310922574  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 788.8239082003237  type: 2  entity: 0
+
+EVENT time: 789.317911313211  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 791.3327433088164  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 792.9038056581318  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 792.9853816339605  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 793.2637104403816  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 794.4017761772516  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 794.7362895596174  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 796.5205542161322  type: 2  entity: 0
+
+EVENT time: 797.6036866359442  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 798.024292733543  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 799.0509964293338  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 802.7169103061008  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 802.9060945463418  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 804.8901333658865  type: 2  entity: 0
+
+EVENT time: 805.7233191930901  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 806.5196081423385  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 809.3923764763324  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 813.030640583514  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 813.1069673757129  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 814.3352763451028  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 814.74141666921  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 814.8901333658865  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+
+EVENT time: 815.4470046082944  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 817.6189458906822  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 818.883877071444  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 819.9362468337048  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 821.1407818842123  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 821.1662953581349  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 824.0314645832699  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 824.7398907437356  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 825.5680410168762  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 826.5834528641616  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 827.0104678487497  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 827.9029511398658  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 829.2602923673202  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 829.9504684591205  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 830.0728476821193  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 831.1509750663771  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 831.880092776269  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 833.860286263619  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 834.922208319345  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 837.811090426343  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 839.9504684591205  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 840.7860957670829  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 841.2805566576122  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 843.2785424359874  type: 2  entity: 0
+Sent Packet from A to B
+toLayer3: packet being lost
+
+EVENT time: 845.2613910336613  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 849.0365306558422  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 849.3634449293497  type: 2  entity: 0
+
+EVENT time: 849.675893429365  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 850.1010162663649  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 850.7275307473984  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 851.3676564836567  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 852.4144413586833  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 855.7311929685347  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 856.2397534104435  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 856.2502517777025  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 857.5764641254922  type: 2  entity: 0
+
+EVENT time: 857.7534714804522  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 859.2310861537524  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 859.2934354686109  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 862.555986205633  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 863.5108798486283  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 863.9199194311342  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 864.9528489028596  type: 2  entity: 0
+
+EVENT time: 866.0668355357517  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 866.2031006805629  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 866.408795434431  type: 2  entity: 0
+
+EVENT time: 868.1768852809222  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 868.4052858058405  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 871.3511764885396  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 871.4097720267335  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 872.593127231666  type: 2  entity: 0
+
+EVENT time: 874.2981658375799  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 875.3145542771692  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 875.8920865504929  type: 2  entity: 0
+
+EVENT time: 875.9447004608288  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 878.2274849696335  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 879.0870387890257  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 881.8912930692459  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 883.9073458052309  type: 2  entity: 0
+
+EVENT time: 884.810449537644  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 885.82000183111  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 885.9037446211121  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 886.3943601794482  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 886.5076448866231  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 887.6678365428634  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 888.6799523911246  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 889.3846858119449  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 890.4121829889822  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 891.1777397991883  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 892.4015625476851  type: 2  entity: 0
+
+EVENT time: 893.8637043366796  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 894.195989867855  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 895.9665517136137  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 899.5473494674515  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 900.4651631214331  type: 2  entity: 0
+
+EVENT time: 902.1500900296024  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 902.3862117374189  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 903.8900112918479  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 904.256111331522  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 906.5728629413738  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 907.5633411664169  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 908.6287728507341  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 908.6535843989374  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 908.875270851771  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 910.4651631214331  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 910.8782616656997  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 911.4978484450818  type: 2  entity: 0
+
+EVENT time: 914.642658772545  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 915.3675344096189  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 916.5593432416755  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 917.3760185552538  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 920.0931424909202  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 921.0679036835835  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 921.3289284951321  type: 2  entity: 0
+
+EVENT time: 921.8156071657454  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 922.1890316476937  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 923.2841578417303  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 923.3141575365457  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 924.5533616138181  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 924.6065553758356  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 925.0751060518197  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 925.4482558671833  type: 2  entity: 0
+
+EVENT time: 927.9016693624685  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 928.110965300454  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 929.5221411786241  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 931.0383007293925  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 931.812250129703  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 932.8842738120671  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 932.9678029725021  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 933.069612720114  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 933.1078218939786  type: 2  entity: 0
+
+EVENT time: 935.3935361796929  type: 2  entity: 0
+Sent Packet from A to B
+toLayer3: packet being corrupted
+
+EVENT time: 936.9809869685957  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 937.1703848384046  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 938.1555833613079  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 939.8662068544564  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 941.9912717062891  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 943.2324594866785  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 944.3641468550669  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 947.0794701986756  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 947.1570787682723  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 948.214026306955  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 948.5287026581615  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 951.53636280404  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 951.9976805932791  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 952.5969115268412  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 953.7333903012176  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 954.9126865443885  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 955.5195776238289  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 955.8642536698501  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 957.0200201422164  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 957.8851893673512  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 959.1999267555766  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 960.7445295571757  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 960.9534287545396  type: 2  entity: 0
+
+EVENT time: 962.7950987273782  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 963.9276100955223  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 964.9316385387737  type: 2  entity: 0
+
+EVENT time: 967.0354930265199  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 968.2425611133145  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 969.54222235786  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 970.5051118503371  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 971.397686696981  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 972.1613818781084  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 972.6740928373057  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 972.8059327982414  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 973.0488296151616  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 973.2319711905263  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 973.7075716422003  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 974.9316385387737  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 975.2618182927938  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 975.5380718405705  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 979.4787438581492  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 980.7029023102504  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 980.7629627368998  type: 2  entity: 0
+
+EVENT time: 981.475539414655  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 984.521500289925  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 986.6746421704764  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 987.7479171117275  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 987.757011627552  type: 2  entity: 0
+
+EVENT time: 989.945768608661  type: 2  entity: 0
+
+EVENT time: 990.1442304757828  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 990.4547868282106  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 991.5833613086329  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 991.6682943205054  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 993.6206549272126  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 995.3034455397191  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 995.9472640156247  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 998.1237220374157  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 999.3155003509629  type: 2  entity: 0
+
+EVENT time: 999.4321115756699  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1001.194708090457  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1001.7671132541888  type: 2  entity: 0
+
+EVENT time: 1002.3989989928884  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1002.6723532822658  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 1005.7466353343295  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1005.9801019318218  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1006.2074648274171  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1007.6985992004143  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1009.0434888760025  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1009.5626392406996  type: 2  entity: 0
+
+EVENT time: 1010.794885097811  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1012.349742118594  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1012.8100833155299  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1014.2167424542987  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 1016.0765404217649  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1017.2886745811336  type: 2  entity: 0
+
+EVENT time: 1017.8400830103459  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1019.9182103946034  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1022.6951506088434  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1023.9865108188118  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 1024.0189214758743  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1025.0139469588298  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1025.8929715872678  type: 2  entity: 0
+
+EVENT time: 1028.4307992797624  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1029.616260261848  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1031.091799676504  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1032.7334208197274  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 1032.8365733817552  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1035.8929715872678  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1036.2895596179073  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1039.707754753258  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 1039.855464339122  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1040.0493179113123  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1041.2695699942005  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1041.9099703970448  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1043.0813928647715  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1043.5926389355134  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1045.8659016693614  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1046.535081026643  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1047.866451002532  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1048.829309976501  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1049.707754753258  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1050.944547868281  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1053.607104709005  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1054.4849085970643  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1054.6419263283171  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1055.0329294717249  type: 2  entity: 0
+
+EVENT time: 1057.1625110629586  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1057.6556901760907  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1057.8468276009403  type: 2  entity: 0
+
+EVENT time: 1059.6947233497117  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1061.0647602771085  type: 2  entity: 0
+
+EVENT time: 1061.1943723868515  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1064.1810357982104  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1065.0339060640283  type: 2  entity: 0
+
+EVENT time: 1065.1701406903287  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1066.4638203070149  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1066.9029511398664  type: 2  entity: 0
+
+EVENT time: 1069.2711264381849  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 1070.1785332804332  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1073.8280587176107  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1076.9029511398664  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+
+EVENT time: 1077.2474745933393  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1078.8714865565967  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1079.5915402691717  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1082.1526535843973  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1083.436017944882  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1083.7834406567567  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1084.9813837092197  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1085.5620593890178  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1085.8153630176687  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1086.5329142124683  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1086.9029511398664  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1087.4039429914244  type: 2  entity: 0
+
+EVENT time: 1090.231879634997  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1090.757164220098  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1090.7620471816142  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1092.1440778832362  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1092.682393871882  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1094.1733146153142  type: 2  entity: 0
+
+EVENT time: 1095.8344676046008  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1097.8559831537827  type: 2  entity: 0
+
+EVENT time: 1098.7486190374448  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1100.448255867182  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1101.023987548448  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 1102.0696432386228  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1103.0232245857112  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1105.0665608691656  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1107.8146916104602  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1107.8444776757087  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1107.8559831537827  type: 0  entity: 0
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+
+EVENT time: 1109.467940305794  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1110.5926999725334  type: 2  entity: 0
+
+EVENT time: 1111.4815210425122  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1111.8619342631291  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1112.676046021911  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1114.1465498825023  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1114.5420697653126  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 1115.8692587054047  type: 2  entity: 0
+
+EVENT time: 1115.9153416547135  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1116.3785515915388  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1117.7856990264581  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1121.015015106662  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1121.4850306711005  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1124.1946165349284  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1124.949003570664  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1125.6249275185385  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1125.8692587054047  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1128.8099612414915  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1129.2395702993865  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1131.59630115665  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1132.787743766593  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1133.184606463819  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1133.3659474471267  type: 2  entity: 0
+
+EVENT time: 1133.8499099703956  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1134.8553422650837  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 1136.1536912137196  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1137.4582964567996  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1140.5374919888898  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1142.7152928250969  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1142.8575395977662  type: 2  entity: 0
+
+EVENT time: 1143.2702414014097  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 1144.905941953795  type: 2  entity: 0
+
+EVENT time: 1146.0214239936506  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1147.0150456251718  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1148.6330454420604  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1150.0149540696416  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1150.4628131962033  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1151.3135776848642  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1151.6346324045517  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1152.0930204168812  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1152.8583025605014  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1154.7718436231576  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1154.905941953795  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1156.5204016235832  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1159.007660145877  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1160.0480666524245  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1160.3670155949585  type: 2  entity: 0
+
+EVENT time: 1161.5083468123403  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1162.8179570909742  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1163.2317270424514  type: 2  entity: 0
+
+EVENT time: 1164.814844203009  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1165.1327249977096  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1168.5429853205953  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1169.3945738090151  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1169.809747611925  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1170.6328928495118  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1171.7908261360517  type: 2  entity: 0
+
+EVENT time: 1173.3234046449156  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1175.436017944882  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1175.5693227942731  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1176.7414777062272  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1177.4224677266761  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1178.1185949278222  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1178.1333658864103  type: 2  entity: 0
+
+EVENT time: 1181.7444380016464  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1181.8459120456555  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1183.5434125797299  type: 2  entity: 0
+
+EVENT time: 1184.517715994749  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1185.7825251014724  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1186.2238227484972  type: 2  entity: 0
+
+EVENT time: 1187.638019959105  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1189.7594531083084  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1193.6185796685672  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1194.7062288277837  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1194.7068697164814  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1195.9843134861296  type: 2  entity: 0
+
+EVENT time: 1196.6549272133545  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 1196.7164525284568  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1197.5474105044693  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1199.5381939146075  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1202.7358012634645  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1203.9702139347496  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1204.3063753166298  type: 2  entity: 0
+
+EVENT time: 1204.4594866786688  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1205.1286049989315  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1206.971556749168  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 1207.21945860164  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1207.5738395336755  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1210.0238654744098  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1211.5165868098984  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1213.0396130253  type: 2  entity: 0
+
+EVENT time: 1214.3113498336722  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1215.3408001953167  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1215.607501449629  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1217.00979644154  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1218.9256569109166  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1220.2891933957926  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1221.4927213354897  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1222.525101474044  type: 2  entity: 0
+
+EVENT time: 1223.7504806665222  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1226.7493514816715  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1228.7240821558273  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1229.5732596819971  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1230.2594683675627  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1231.84203619495  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1231.8607135227494  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1232.3003021332418  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1232.525101474044  type: 0  entity: 0
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1234.761558885462  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1234.7635731070895  type: 2  entity: 0
+
+EVENT time: 1237.0255439924313  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 1237.6595965453025  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1240.6598101748689  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1240.990264595475  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1241.605182042909  type: 2  entity: 0
+
+EVENT time: 1243.6976226081097  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1244.1030915250099  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1246.0244758445976  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1247.2031006805628  type: 2  entity: 0
+
+EVENT time: 1248.2699056978036  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1250.5340128788089  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1251.5986816003906  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1253.259804071167  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1254.8871120334484  type: 2  entity: 0
+
+EVENT time: 1256.8462172307484  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1256.9967650379956  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1257.0440992461909  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1259.0478225043469  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1259.204199346902  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1261.1875057222205  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 1261.3603930784002  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1261.82644123661  type: 2  entity: 0
+
+EVENT time: 1263.4285714285695  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1264.9913632618163  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1268.7188940092146  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1269.9894711142308  type: 2  entity: 0
+
+EVENT time: 1270.1035798211597  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1270.5557725760673  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1271.0378124332408  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1272.843043305763  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1273.0257881405055  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1276.1358684041854  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1279.0680867946392  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1279.3588671529265  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1279.9894711142308  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1280.3368633075959  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1280.5947752311777  type: 2  entity: 0
+
+EVENT time: 1281.6700338755454  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 1281.9435407574676  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1283.5215918454526  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1285.7458113345745  type: 2  entity: 0
+
+EVENT time: 1286.2390514847255  type: 2  entity: 1
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 1286.4463637195943  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1286.4584490493469  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1289.3276772362422  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1291.6754051332116  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1291.9927671132543  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1294.8689840388179  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1295.0151371807  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1295.7458113345745  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1296.8578142643514  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1297.4072084719385  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1297.6559343241659  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1298.0955229346582  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1298.7914670247508  type: 2  entity: 0
+
+EVENT time: 1299.5665150914012  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1300.5426190984815  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1302.2296823023164  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1302.2583697012221  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1302.9119541001621  type: 2  entity: 0
+
+EVENT time: 1304.5824152348382  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1304.7985778374584  type: 2  entity: 1
+Sent Packet from B to A
+
+EVENT time: 1306.7425153355493  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1309.1952269051162  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1310.0545060579225  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1310.235816522721  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 1310.324533829766  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1311.2183599353011  type: 2  entity: 0
+
+EVENT time: 1313.7399212622438  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1317.2338023010939  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1317.8846705526903  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1317.9303262428666  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1321.2051149021863  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1321.2183599353011  type: 0  entity: 0
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+
+EVENT time: 1322.1942808313224  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1324.0278328806403  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1325.7733085116124  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1325.8615375225077  type: 2  entity: 0
+
+EVENT time: 1327.0215765861976  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1330.1211584826178  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1330.6191900387587  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1332.0443128757572  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1333.5287942136908  type: 2  entity: 0
+
+EVENT time: 1334.5938901944032  type: 2  entity: 0
+
+EVENT time: 1335.5151219214433  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1335.679799798576  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1335.9039887691888  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1338.6099429303854  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1340.0176091799678  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1341.5199438459406  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1341.653187658315  type: 2  entity: 1
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 1342.1544846949655  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1343.3224890896308  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1344.5938901944032  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+
+EVENT time: 1345.5493942075873  type: 2  entity: 0
+
+EVENT time: 1346.0693990905463  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1348.191900387583  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1349.4467909787288  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1349.9310892056035  type: 2  entity: 0
+
+EVENT time: 1350.6734214300952  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1351.866878261666  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1351.9667958616903  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 1353.1278420361928  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1353.4175847651604  type: 2  entity: 0
+
+EVENT time: 1355.8851283303325  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 1357.0122379222976  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1359.6684469130505  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1361.9622180852664  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1362.1542405468895  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1362.7021088290026  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1363.4175847651604  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1364.8419446394216  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1365.7670216986603  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 1367.1526841029063  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1368.3067720572506  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1368.9475997192299  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1370.1821955015696  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1373.4175847651604  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1373.9268166142745  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1376.1970885341962  type: 2  entity: 0
+Sent Packet from A to B
+Sent Packet from A to B
+
+EVENT time: 1376.9173863948463  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1377.3610034485894  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1377.3995788445693  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 1380.4773094882023  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1380.5139622180855  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1381.4445020905157  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1383.0197454756287  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1383.9212012085331  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1384.4475234229537  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1385.7215796380506  type: 2  entity: 0
+Sent Packet from A to B
+
+EVENT time: 1386.2509231849094  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1388.8116702780214  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1391.6490371410239  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1392.6648762474442  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1394.9085360270983  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1395.4329050569172  type: 2  entity: 0
+
+EVENT time: 1395.6996978667541  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1397.6887722403617  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1400.568254646441  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1401.4060792870878  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being lost
+
+EVENT time: 1403.9269997253311  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1404.029358806116  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1405.4329050569172  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being corrupted
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1405.963927121797  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1407.7443769646268  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1408.608783227025  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1408.8399914548152  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1409.8377025666045  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1410.285103915525  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1410.9911801507594  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1412.7930845057529  type: 2  entity: 0
+
+EVENT time: 1414.5413373210831  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1418.5379192480218  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1419.3223975341048  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 1420.0599383526087  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1420.232093264565  type: 2  entity: 0
+
+EVENT time: 1421.3522141178603  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1422.8556779686858  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1422.8586077455955  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1423.964232306892  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1424.6086611529872  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1426.4788354136763  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1427.3826715903174  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1428.1111178930025  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1428.137211218604  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1429.774712363046  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1430.232093264565  type: 0  entity: 0
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+Retransmission sent from A to B
+toLayer3: packet being lost
+Retransmission sent from A to B
+Retransmission sent from A to B
+
+EVENT time: 1432.3933225501246  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1432.9659718619323  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1433.5339823602997  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1434.3227027191974  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1434.3762932218374  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1435.9225745414599  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1437.0813928647724  type: 2  entity: 0
+
+EVENT time: 1437.1902218695623  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1438.3938718832956  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1438.4701681569857  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1441.3085116122913  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1441.8234504226812  type: 2  entity: 0
+
+EVENT time: 1442.455183568835  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1444.06921597949  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1446.3688467055274  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1447.134861293373  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1447.6404919583733  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1449.0194402905347  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1449.3121738334305  type: 2  entity: 0
+
+EVENT time: 1450.0719626453429  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1453.191991943114  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+toLayer3: packet being corrupted
+
+EVENT time: 1453.3528244880504  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1453.4785607470915  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1454.3888668477416  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1455.327860347301  type: 2  entity: 0
+
+EVENT time: 1456.3971068453002  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1459.0082705160664  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1461.6393017365037  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1462.0861232337397  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1464.6340525528738  type: 2  entity: 0
+
+EVENT time: 1465.8397778252495  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1467.4034241767617  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1467.5808893093665  type: 2  entity: 0
+Packet from B is corrupt
+
+EVENT time: 1468.2331614123952  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1468.7294839320052  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1469.2869045075824  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1471.1398968474384  type: 2  entity: 1
+binput checksum okay
+Sent Packet from B to A
+
+EVENT time: 1472.009002960296  type: 2  entity: 0
+
+EVENT time: 1472.5315103610326  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1472.6165959654518  type: 1  entity: 0
+Packet Window Full, packet added to buffer
+
+EVENT time: 1473.6238288521977  type: 1  entity: 0
+Simulator terminated at time 1473.6238288521977
+
+
+===============STATISTICS=======================
+Number of original packets transmitted by A: 44
+Number of retransmissions by A: 434
+Number of data packets delivered to layer 5 at B: 34
+Number of ACK packets sent by B: 268
+Number of corrupted packets: 82
+Ratio of lost packets: 0.7364016736401674
+Ratio of corrupted packets: 0.17154811715481172
+Average RTT: 291.9092421144334
+Average communication time: 707.806618730303
+==================================================
+
+EXTRA:
